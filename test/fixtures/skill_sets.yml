@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  swordsman: 1
+  rogue: 1
+  charmer: 1
+  athlete: 1
+  survivor: 1
+
+two:
+  swordsman: 1
+  rogue: 1
+  charmer: 1
+  athlete: 1
+  survivor: 1

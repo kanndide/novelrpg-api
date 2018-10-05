@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  damage: 1
+  require_swordsman: 1
+  equiped: false
+
+two:
+  name: MyString
+  damage: 1
+  require_swordsman: 1
+  equiped: false

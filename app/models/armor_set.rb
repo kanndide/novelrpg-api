@@ -1,0 +1,2 @@
+class ArmorSet < ApplicationRecord
+end

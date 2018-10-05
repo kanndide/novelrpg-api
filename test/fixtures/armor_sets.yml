@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  description: MyText
+  rogue: 1
+  athlete: 1
+  require_athlete: 1
+  require_rogue: 1
+  equiped: false
+
+two:
+  name: MyString
+  type: 
+  description: MyText
+  rogue: 1
+  athlete: 1
+  require_athlete: 1
+  require_rogue: 1
+  equiped: false
