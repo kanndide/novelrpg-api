@@ -9,6 +9,7 @@ class ApplicationController < ActionController::API
 	end
 
   def validation_error(resource)
+    
     render json: {
       errors: [
         {
