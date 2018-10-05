@@ -34,7 +34,7 @@ RSpec.describe 'POST /signup', type: :request do
     end
 
     it 'returns validation errors' do
-      expect(json['errors'].first['title']).to eq('Bad Request')
+      expect(response).to match_response_schema('user_validation_error')
     end
   end
 end
