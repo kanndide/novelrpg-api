@@ -26,8 +26,9 @@ RSpec.describe 'POST /login', type: :request do
     end
 
     it 'returns valid JWT token' do
-      decoded_token = decoded_jwt_token_from_response(response)
+      decoded_token = JWT.decode(response)
       expect(decoded_token.first['sub']).to be_present
+      # decoded_jwt_token_from_response
     end
   end
 
