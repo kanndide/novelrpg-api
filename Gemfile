@@ -34,6 +34,7 @@ group :development, :test do
   gem 'faker', '~> 1.6', '>= 1.6.3'
   gem 'dotenv-rails'
   gem 'pry'
+  gem 'json-schema-rspec'
 end
 
 group :development do
