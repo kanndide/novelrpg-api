@@ -9,6 +9,6 @@ Rails.application.routes.draw do
              controllers: {
                sessions: 'sessions',
                registrations: 'registrations'
-  			}
+  			} 
   root 'index#home'
 end
