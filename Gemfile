@@ -20,6 +20,8 @@ gem 'puma', '~> 3.0'
 gem 'bcrypt', '~> 3.1.7'
 # Devise with JSON Web Token
 gem 'devise-jwt', '~> 0.5.7'
+# Middleware for CORS requests
+gem 'rack-cors', '~> 0.4.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
