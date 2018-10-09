@@ -11,4 +11,11 @@ Rails.application.routes.draw do
                registrations: 'registrations'
   			} 
   root 'index#home'
+  resources :users, only: [:show] do
+    resources :characters do
+      resources :items, only: [:new, :create, :destroy]
+      resources :weapons, only: [:new, :create, :destroy]
+      resources :armor_sets, only: [:new, :create, :destroy]
+    end
+  end
 end

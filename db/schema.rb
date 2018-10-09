@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 20181005101620) do
     t.integer  "scene"
     t.integer  "gold"
     t.integer  "hp"
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -6,6 +6,7 @@ class CreateCharacters < ActiveRecord::Migration[5.0]
       t.integer :scene
       t.integer :gold
       t.integer :hp
+      t.integer :user_id
 
       t.timestamps
     end
