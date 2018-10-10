@@ -6,7 +6,7 @@ class SessionsController < Devise::SessionsController
     set_flash_message!(:notice, :signed_in)
     sign_in(resource_name, resource)
     yield resource if block_given?
-    render json: { user: resource, token: request.headers["warden-jwt_auth.token"] }
+    render json: { user: resource, characters: resource.characters, token: request.headers["warden-jwt_auth.token"] }
   end
 
   private
