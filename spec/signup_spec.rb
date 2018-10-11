@@ -4,7 +4,7 @@ RSpec.describe 'POST /signup', type: :request do
   let(:url) { '/signup' }
   let(:params) do
     {
-      user: {
+      registration: {
         email: 'user@example.com',
         password: 'password'
       }
@@ -25,7 +25,7 @@ RSpec.describe 'POST /signup', type: :request do
 
   context 'when user already exists' do
     before do
-      Fabricate :user, email: params[:user][:email]
+      Fabricate :user, email: params[:registration][:email]
       post url, params: params
     end
 
